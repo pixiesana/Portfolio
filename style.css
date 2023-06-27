@@ -1,0 +1,195 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#header {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070f18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#menu {
+    text-align: right;
+    margin-top: 49px;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    font-style: normal;
+    text-align: center;
+    color: #070f18;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#buttonCta {
+    background: #1f7cff;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    }
+    p.gray {
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 32px;
+        color: rgba(87, 84, 85, 1);
+    }
+    #headerCta h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    #headerImg {
+        margin-left: 42px;
+    }
+    #headerImg img {
+        width: 100%;
+    }
+    .headerLogo {
+        text-align: center;
+    }
+    #clients {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #headerClientText {
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 24px;
+        text-align: left;
+        color: #070f18;
+    }
+    h2.red {
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+        color: #f75c4e;
+    }
+    h1.black {
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 54px;
+        color: #000;
+        margin-top: 0;
+    }
+    #textServices {
+        text-align: center;
+        margin-bottom: 55px;
+    }
+    .textCenter {
+        text-align: center;
+    }
+    #services .textCenter h3 {
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #070f18;
+        text-align: center;
+    }
+    #contactImg img {
+        width: 100%;
+    }
+    #contactForm {
+        margin-left: 75px;
+        text-align: left;
+    }
+    #contact {
+        margin-top: 100px;
+    }
+    #contactForm input {
+        background: #f5f6fb;
+        border-radius: 50px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        text-align: left;
+        color: #575455;
+        border: 0;
+        width: 76%;
+        padding: 12px 20px 12px 20px;
+    }
+    #contactForm button {
+        background: #1f7cff;
+        border-radius: 50px;
+        border: 0;
+        padding: 15px 25px 15px 25px;
+        width: 180px;
+        margin-top: 20px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    #portfolioTitle {
+        margin-top: 150px   ;
+    }
+    #redTitle {
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        color: #f75c4e;
+    }
+    #blackTitle {
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        color: rgba(0, 0, 0, 1);
+    }
+    .portfolioImg img {
+        width: 100%;
+    }
+    .portfolioImg {
+        padding: 30px;
+    }
+    button:hover {
+        transform: translateY(-8px);
+        box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.477);
+        transition-duration: 0.8s;
+    }
